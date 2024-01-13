@@ -4,7 +4,7 @@ metadata:
   name: moja-aplikacja-ingress
 spec:
   rules:
-  - host: moja-aplikacja.example.com  # Zastąp to adresem Twojej aplikacji
+  - host: localhost:80/index.html
     http:
       paths:
       - path: /
