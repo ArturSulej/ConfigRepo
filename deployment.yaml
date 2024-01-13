@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: moja-aplikacja
-        image: nazwa-uzytkownika/moja-aplikacja:latest  # Zastąp to nazwą twojego obrazu
+        image: bluescoob/zad2gitops:latest  # Zastąp to nazwą twojego obrazu
   strategy:
     type: RollingUpdate
     rollingUpdate:
